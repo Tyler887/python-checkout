@@ -1,0 +1,9 @@
+#####################################
+# Please insert action details here #
+#####################################
+
+runs:
+  using: "node12"
+  pre: "script/pre.js"
+  main: "script/index.js"
+  post: "script/post.js"
